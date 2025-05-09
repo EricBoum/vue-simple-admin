@@ -20,7 +20,7 @@
 
 <script setup lang="ts">
 import SubMenu from './sub-menu.vue'
-import { defineProps, toRef } from 'vue'
+import { toRef } from 'vue'
 const props = defineProps({
   list: Array<object>,
 })
